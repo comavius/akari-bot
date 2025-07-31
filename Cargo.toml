@@ -1,0 +1,18 @@
+[package]
+name = "akari_bot"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+uuid = { version = "1.17.0", features = ["v4"] }
+tokio = { version = "1.47", features = ["full"] }
+diesel = { version = "2.2.12", features = ["mysql", "r2d2"] }
+async-trait = "0.1.88"
+dotenvy = "0.15.7"
+traq = "0.1.0"
+anyhow = "1.0.75"
+regex = "1.11.1"
+chrono = { version = "0.4.37" }
+rstest = { version = "0.26.1" }
+thiserror = "2.0.12"
